@@ -1,0 +1,24 @@
+2018-02-10T12:22:30+00:00 CRITICAL Uncaught Error: Call to undefined function is_homw() in D:\xampp\htdocs\sanpham\wp-content\themes\sanpham\header.php:118
+Stack trace:
+#0 D:\xampp\htdocs\sanpham\wp-includes\template.php(688): require_once()
+#1 D:\xampp\htdocs\sanpham\wp-includes\template.php(647): load_template('D:\\xampp\\htdocs...', true)
+#2 D:\xampp\htdocs\sanpham\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 D:\xampp\htdocs\sanpham\wp-content\themes\sanpham\index.php(1): get_header()
+#4 D:\xampp\htdocs\sanpham\wp-includes\template-loader.php(74): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\sanpham\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\sanpham\index.php(17): require('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-02-11T09:15:13+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-02-11T09:59:06+00:00 CRITICAL Uncaught Error: Call to undefined function the_sidebar() in D:\xampp\htdocs\sanpham\wp-content\themes\sanpham\single-product.php:122
+Stack trace:
+#0 D:\xampp\htdocs\sanpham\wp-includes\template-loader.php(74): include()
+#1 D:\xampp\htdocs\sanpham\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\sanpham\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-02-22T22:27:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
